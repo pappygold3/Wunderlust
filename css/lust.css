@@ -1,0 +1,120 @@
+.logo{
+    width: 100px;
+}
+
+.navigation--space{
+    margin-right: 12px; 
+}
+
+a{
+    font-family: Roboto;
+    font-weight: 500;
+    text-decoration: none;
+    color: #B6BCC8;
+    letter-spacing: 0.5px
+}
+h1{
+    font-family: Playfair, serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.hero{
+    margin: 10%;
+}
+
+.gallery__container{
+    height: 500px;
+    background-color: black;
+    position: relative;
+}
+.first-image{
+    left:0%;
+    width: 34%;
+    height: 100%;
+    position: absolute;
+    background-image: url('img/image.png');
+}
+.second-image{
+    left:33%;
+    width: 33.5%;
+    height: 100%;
+    position: absolute;
+    background-image: url('img/image (1).png');
+}
+.third-image{
+    left:66%;
+    width: 34%;
+    height: 100%;
+    position: absolute;
+    background-image: url('img/joel-filipe-260016-unsplash.jpg');
+}
+.gallery-feature{margin-top: 15%;}
+.gallery-feature, .title
+{
+    color: azure;
+    text-align: center
+}
+
+.content{
+    text-align: center;
+        color: azure;
+}
+.main__container{
+padding: 2% 2% 0% 2%;
+}
+
+.main_container--images{
+
+}
+
+.form__input{
+    padding: 2% 0 2% 2.5%;
+    border-width: 0.5px;
+    background-color: #EDEDF0;
+    border: 0.5px solid #B6BCC8;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#form--place{
+    width: 38%;
+    border-radius: 4px 0 0 4px;
+    margin-right: -6px;
+}
+#form--person{
+    margin-left: -6px;
+}
+#form--date{
+    margin-right: -6px;
+}
+
+button{
+    margin-left: -6px;
+    padding: 2% 5%;
+    border-width: 0.5px;
+    background-color: #4887E0;
+    border: 0.5px solid #4887E0;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    border-radius: 0 4px 4px 0;
+    color: white;
+}
+
+.Navigation{
+    list-style-type: none;
+    display: -webkit-inline-box;
+    float: right;
+    font-size: 12px;
+    font-weight: 900px;
+    letter-spacing: 0.5px;
+}
+
+.Search_input{
+    border: 0.1px solid #B3BAC6;
+    padding: 2% 10%;
+    border-width: 1px;
+    border-radius: 2px;
+}
